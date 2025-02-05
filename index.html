@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>signup</title>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>    <style>
+      /* Google Font Link */
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cover">
+        <img src="https://images.pexels.com/photos/235725/pexels-photo-235725.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Cover Image">
+
+        <div class="text">
+          <span class="text-1">FarmNect</span><br>
+          <span class="text-2">Friends of Farmer</span>
+        </div>
+      </div>
+      <div class="forms">
+        <div class="form-content">
+          <div class="title">Login</div>
+          <form id="login-form" method="post">
+            <div class="input-box">
+              <i class="fas fa-envelope"></i>
+              <input type="text" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+              <i class="fas fa-lock"></i>
+              <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="input-box">
+              <i class='fas fa-address-book'></i>
+              <input type="text" id="sul" name="password" placeholder="Enter your state unified license id" required>
+            </div>
+            
+            <div class="button input-box">
+              <input type="submit" value="Submit">
+            </div>
+            <div class="text sign-up-text">Don't have an account? <label for="flip">Signup now</label></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="signup.js" type="module"></script>
+</html>
